@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 50px 600px 410px;
+
+}
+
+.first{
+    grid-column: span 2; 
+    background-color: rgb(14, 15, 14);
+}
+.secund{
+    grid-column: span 2; 
+    
+}
+.card{
+    background-color: aqua;
+}
+
+.secund{
+    background-image: url(assets/image-hero.jpg);
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+    margin-top: 200px;
+    padding: 30px;
+    width: 400px;
+    border: 3px solid white;
+    background: linear-gradient(rgba(95, 88, 88, 0) , rgba(238, 130, 238, 0.411) );
+    color: white;
+}
+
+.logo{
+    color: white;
+}
+
+.menu{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar{
+    display: inline-block;
+    justify-content: flex-start;
+    
+}
+
+.navbar ul li{
+    color: blue;
+    display: inline-flex;
+    list-style-type: none;
+   
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+
+li a:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.63s;
+    padding: 15px;
+}
+
+.inicio{
+    background-color: yellow;
+    color: black;
+}
+
+.tree{
+    background-color: white;
+}
+
+.img{
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 80px;
+    box-shadow: 20px 20px 22px violet;
+}
+
+.for{
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-right: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+    box-shadow: 20px 20px 22px blueviolet;
+    
+    padding: 24px;
+    padding-top: 150px;
+    margin-top: 60px;
+  
+}
+
+.container-tt{
+    height: 200px;
+    margin: 60px 80px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 22px yellow , blue 20px;
+}
+
+.container-tt button{
+    
+    padding: 20px 42px;
+    background-color: yellow;
+    border: 0;
+    cursor: pointer;
+    
+    
+}
+button a{
+    text-decoration: none;
+}
+
+.container-grid2{
+    margin: 60px 80px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px  ;
+    gap: 15px;
+}
+.card2{
+    color: yellow;
+    padding: 20PX;
+}
+.wwww1{
+    background-image: url(assets/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+}
+
+.www2{
+    background-image: url(assets/image-curiosity.jpg);
+    background-repeat: no-repeat;
+}
+
+.www3{
+    background-image: url(assets/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+}
+
+.www4{
+    background-image: url(assets/image-fisheye.jpg);
+    background-repeat: no-repeat;
+}
+
+.www5{
+    background-image: url(assets/image-from-above.jpg);
+    background-repeat: no-repeat;
+}
+
+.www6{
+    background-image: url(assets/image-grid.jpg);
+    background-repeat: no-repeat;
+}
+
+.www7{
+    background-image: url(assets/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+}
+.www8{
+    background-image: url(assets/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+}
+
+.final{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    height: 100px;
+    background-color: black;
+    color: wheat;
+}
